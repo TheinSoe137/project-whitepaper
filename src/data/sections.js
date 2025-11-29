@@ -12,13 +12,9 @@ export const sections = {
         title: '2. Introduction to the Coroverse',
         content: `
             <h1>Introduction to the Coroverse</h1>
+        
             <p>The Coroverse is Coronad's core — an evolving comic world where stories are not only read but lived. Every character, environment, relic, and storyline serves a purpose within this layered universe.</p>
-        `,
-        children: {
-            'what-is-coroverse': {
-                title: '2.1 What is the Coroverse?',
-                content: `
-                    <h1>What is the Coroverse?</h1>
+        <h2>What is the Coroverse?</h2>
                     <p>The Coroverse is a narrative-driven universe enriched by:</p>
                     <ul>
                         <li>Deep lore and comic arcs</li>
@@ -26,12 +22,7 @@ export const sections = {
                         <li>Community interaction and worldbuilding</li>
                         <li>Characters shaped by holders and their engagement</li>
                     </ul>
-                `
-            },
-            'living-narrative': {
-                title: '2.2 A Living Narrative',
-                content: `
-                    <h1>A Living Narrative</h1>
+                    <h2>A Living Narrative</h2>
                     <p>The Coroverse evolves based on:</p>
                     <ul>
                         <li>New comic releases</li>
@@ -40,20 +31,42 @@ export const sections = {
                         <li>Discoveries made through events and missions</li>
                     </ul>
                     <p>Holders contribute directly to the story's direction.</p>
-                `
-            }
-        }
+            `,
+        // children: {
+        //     'what-is-coroverse': {
+        //         title: '2.1 What is the Coroverse?',
+        //         content: `
+        //             <h1>What is the Coroverse?</h1>
+        //             <p>The Coroverse is a narrative-driven universe enriched by:</p>
+        //             <ul>
+        //                 <li>Deep lore and comic arcs</li>
+        //                 <li>Branching storylines with hidden layers</li>
+        //                 <li>Community interaction and worldbuilding</li>
+        //                 <li>Characters shaped by holders and their engagement</li>
+        //             </ul>
+        //         `
+        //     },
+        //     'living-narrative': {
+        //         title: '2.2 A Living Narrative',
+        //         content: `
+        //             <h1>A Living Narrative</h1>
+        //             <p>The Coroverse evolves based on:</p>
+        //             <ul>
+        //                 <li>New comic releases</li>
+        //                 <li>Community choices and interactions</li>
+        //                 <li>CNC-powered progression</li>
+        //                 <li>Discoveries made through events and missions</li>
+        //             </ul>
+        //             <p>Holders contribute directly to the story's direction.</p>
+        //         `
+        //     }
+        // }
     },
     'pfp-collection': {
         title: '3. The Coroverse PFP Collection',
         content: `
             <h1>The Coroverse PFP Collection</h1>
-        `,
-        children: {
-            'purpose': {
-                title: '3.1 Purpose of the PFPs',
-                content: `
-                    <h1>Purpose of the PFPs</h1>
+             <h2>Purpose of the PFPs</h2>
                     <p>Each Coroverse PFP functions as:</p>
                     <ul>
                         <li>A character identity within the comic universe</li>
@@ -62,34 +75,41 @@ export const sections = {
                         <li>A participation badge for exclusive community opportunities</li>
                         <li>A long-term role within future expansions and adaptations</li>
                     </ul>
-                `
-            },
-            'launch-info': {
-                title: '3.2 Launch Information',
-                content: `
-                    <h1>Launch Information</h1>
+                    <h2>Launch Information</h2>
                     <p>The collection is scheduled to launch on Monad. Initially planned through Poply Launchpad, the mint was postponed due to external technical issues. The Coronad team chose a stable alternative such as Magic Eden or Scatter.art to ensure fairness and quality.</p>
-                `
-            }
-        }
+                
+        `,
+        // children: {
+        //     'purpose': {
+        //         title: '3.1 Purpose of the PFPs',
+        //         content: `
+        //             <h1>Purpose of the PFPs</h1>
+        //             <p>Each Coroverse PFP functions as:</p>
+        //             <ul>
+        //                 <li>A character identity within the comic universe</li>
+        //                 <li>A gateway to story-driven events, missions, and lore</li>
+        //                 <li>An eligibility token for CNC earnings and airdrops</li>
+        //                 <li>A participation badge for exclusive community opportunities</li>
+        //                 <li>A long-term role within future expansions and adaptations</li>
+        //             </ul>
+        //         `
+        //     },
+        //     'launch-info': {
+        //         title: '3.2 Launch Information',
+        //         content: `
+        //             <h1>Launch Information</h1>
+        //             <p>The collection is scheduled to launch on Monad. Initially planned through Poply Launchpad, the mint was postponed due to external technical issues. The Coronad team chose a stable alternative such as Magic Eden or Scatter.art to ensure fairness and quality.</p>
+        //         `
+        //     }
+        // }
     },
     'cnc': {
         title: '4. Coronad Native Coin (CNC)',
         content: `
             <h1>Coronad Native Coin (CNC)</h1>
-        `,
-        children: {
-            'overview': {
-                title: '4.1 Overview of CNC',
-                content: `
-                    <h1>Overview of CNC</h1>
+             <h2>Overview of CNC</h2>
                     <p>CNC is an ecosystem utility asset that rewards participation and enhances narrative depth.</p>
-                `
-            },
-            'how-earned': {
-                title: '4.2 How CNC Is Earned',
-                content: `
-                    <h1>How CNC Is Earned</h1>
+                <h2>How CNC Is Earned</h2>
                     <p>Holders earn CNC through:</p>
                     <ul>
                         <li>Reading comic chapters</li>
@@ -98,24 +118,14 @@ export const sections = {
                         <li>Engaging in discussions and theories</li>
                         <li>Attending events and completing challenges</li>
                     </ul>
-                `
-            },
-            'personalized': {
-                title: '4.3 Personalized CNC Rewards',
-                content: `
-                    <h1>Personalized CNC Rewards</h1>
+                    <h2>Personalized CNC Rewards</h2>
                     <p>CNC rewards are personalized per NFT and user behavior:</p>
                     <ul>
                         <li>Different characters earn different rewards</li>
                         <li>Story paths influence CNC flow</li>
                         <li>Interaction choices affect progression</li>
                     </ul>
-                `
-            },
-            'utility': {
-                title: '4.4 Utility of CNC',
-                content: `
-                    <h1>Utility of CNC</h1>
+                    <h2>Utility of CNC</h2>
                     <p>CNC can be used to acquire:</p>
                     <ul>
                         <li>Standard and special comic issues</li>
@@ -124,79 +134,146 @@ export const sections = {
                         <li>Hidden chapters and exclusive expansions</li>
                         <li>Future utility items</li>
                     </ul>
-                `
-            },
-            'airdrop': {
-                title: '4.5 Airdrop Distribution',
-                content: `
-                    <h1>Airdrop Distribution</h1>
+                    <h2>Airdrop Distribution</h2>
                     <p>Priority CNC airdrops go to:</p>
                     <ul>
                         <li>1. Coroverse PFP Holders</li>
                         <li>2. Early Community Supporters</li>
                     </ul>
-                `
-            }
-        }
+        `,
+        // children: {
+        //     'overview': {
+        //         title: '4.1 Overview of CNC',
+        //         content: `
+        //             <h1>Overview of CNC</h1>
+        //             <p>CNC is an ecosystem utility asset that rewards participation and enhances narrative depth.</p>
+        //         `
+        //     },
+        //     'how-earned': {
+        //         title: '4.2 How CNC Is Earned',
+        //         content: `
+        //             <h1>How CNC Is Earned</h1>
+        //             <p>Holders earn CNC through:</p>
+        //             <ul>
+        //                 <li>Reading comic chapters</li>
+        //                 <li>Participating in lore-driven missions</li>
+        //                 <li>Contributing to community roleplay</li>
+        //                 <li>Engaging in discussions and theories</li>
+        //                 <li>Attending events and completing challenges</li>
+        //             </ul>
+        //         `
+        //     },
+        //     'personalized': {
+        //         title: '4.3 Personalized CNC Rewards',
+        //         content: `
+        //             <h1>Personalized CNC Rewards</h1>
+        //             <p>CNC rewards are personalized per NFT and user behavior:</p>
+        //             <ul>
+        //                 <li>Different characters earn different rewards</li>
+        //                 <li>Story paths influence CNC flow</li>
+        //                 <li>Interaction choices affect progression</li>
+        //             </ul>
+        //         `
+        //     },
+        //     'utility': {
+        //         title: '4.4 Utility of CNC',
+        //         content: `
+        //             <h1>Utility of CNC</h1>
+        //             <p>CNC can be used to acquire:</p>
+        //             <ul>
+        //                 <li>Standard and special comic issues</li>
+        //                 <li>Mainnet relics with on-chain significance</li>
+        //                 <li>Lore artifacts from story events</li>
+        //                 <li>Hidden chapters and exclusive expansions</li>
+        //                 <li>Future utility items</li>
+        //             </ul>
+        //         `
+        //     },
+        //     'airdrop': {
+        //         title: '4.5 Airdrop Distribution',
+        //         content: `
+        //             <h1>Airdrop Distribution</h1>
+        //             <p>Priority CNC airdrops go to:</p>
+        //             <ul>
+        //                 <li>1. Coroverse PFP Holders</li>
+        //                 <li>2. Early Community Supporters</li>
+        //             </ul>
+        //         `
+        //     }
+        // }
     },
     'ecosystem': {
         title: '5. Ecosystem Architecture',
         content: `
             <h1>Ecosystem Architecture</h1>
-        `,
-        children: {
-            'nfts': {
-                title: '5.1 NFTs — Identity',
-                content: `
-                    <h1>NFTs — Identity</h1>
+            <h2>NFTs — Identity</h2>
                     <p>PFPs define access, interaction style, narrative path, and CNC potential.</p>
-                `
-            },
-            'comics': {
-                title: '5.2 Comics — Discovery',
-                content: `
-                    <h1>Comics — Discovery</h1>
+                <h2>Comics — Discovery</h2>
                     <p>Comics deliver story chapters, lore, arcs, missions, and hidden content.</p>
-                `
-            },
-            'cnc-progression': {
-                title: '5.3 CNC — Progression',
-                content: `
-                    <h1>CNC — Progression</h1>
+                 <h2>CNC — Progression</h2>
                     <p>CNC connects identity with exploration and unlocks deeper storylines, relics, and events.</p>
-                `
-            }
-        }
+               
+        `,
+        // children: {
+        //     'nfts': {
+        //         title: '5.1 NFTs — Identity',
+        //         content: `
+        //             <h1>NFTs — Identity</h1>
+        //             <p>PFPs define access, interaction style, narrative path, and CNC potential.</p>
+        //         `
+        //     },
+        //     'comics': {
+        //         title: '5.2 Comics — Discovery',
+        //         content: `
+        //             <h1>Comics — Discovery</h1>
+        //             <p>Comics deliver story chapters, lore, arcs, missions, and hidden content.</p>
+        //         `
+        //     },
+        //     'cnc-progression': {
+        //         title: '5.3 CNC — Progression',
+        //         content: `
+        //             <h1>CNC — Progression</h1>
+        //             <p>CNC connects identity with exploration and unlocks deeper storylines, relics, and events.</p>
+        //         `
+        //     }
+        // }
     },
     'engagement': {
         title: '6. Engagement Philosophy',
         content: `
             <h1>Engagement Philosophy</h1>
             <h2>Read. Engage. Earn.</h2>
-        `,
-        children: {
-            'read': {
-                title: '6.1 Read',
-                content: `
-                    <h1>Read</h1>
+
+              <h2>Read</h2>
                     <p>Explore the universe and lore</p>
-                `
-            },
-            'engage': {
-                title: '6.2 Engage',
-                content: `
-                    <h1>Engage</h1>
+                    <h2>Engage</h2>
                     <p>Participate in discussions, missions, and roleplay</p>
-                `
-            },
-            'earn': {
-                title: '6.3 Earn',
-                content: `
-                    <h1>Earn</h1>
+                    <h2>Earn</h2>
                     <p>Receive CNC rewards and unlock progression</p>
-                `
-            }
-        }
+        `,
+        // children: {
+        //     'read': {
+        //         title: '6.1 Read',
+        //         content: `
+        //             <h1>Read</h1>
+        //             <p>Explore the universe and lore</p>
+        //         `
+        //     },
+        //     'engage': {
+        //         title: '6.2 Engage',
+        //         content: `
+        //             <h1>Engage</h1>
+        //             <p>Participate in discussions, missions, and roleplay</p>
+        //         `
+        //     },
+        //     'earn': {
+        //         title: '6.3 Earn',
+        //         content: `
+        //             <h1>Earn</h1>
+        //             <p>Receive CNC rewards and unlock progression</p>
+        //         `
+        //     }
+        // }
     },
     'community': {
         title: '7. Community Foundations',
