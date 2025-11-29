@@ -63,11 +63,11 @@ export const sections = {
         // }
     },
     'pfp-collection': {
-        title: '3. The Coroverse PFP Collection',
+        title: '3. The Coroverse Saga Collection',
         content: `
-            <h1>The Coroverse PFP Collection</h1>
+            <h1>The Coroverse Saga Collection</h1>
              <h2>Purpose of the PFPs</h2>
-                    <p>Each Coroverse PFP functions as:</p>
+                    <p>Each Coroverse Saga functions as:</p>
                     <ul>
                         <li>A character identity within the comic universe</li>
                         <li>A gateway to story-driven events, missions, and lore</li>
