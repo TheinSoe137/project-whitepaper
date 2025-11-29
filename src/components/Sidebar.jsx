@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { sections } from '../data/sections';
 import '../styles/Sidebar.css';
 
-const Sidebar = ({ currentParentKey, currentChildKey, onSectionChange }) => {
+const Sidebar = ({ currentParentKey, currentChildKey, onSectionChange, isMobileOpen, onCloseMobile }) => {
     const [expandedSections, setExpandedSections] = useState({});
 
     const toggleSection = (key) => {
@@ -19,6 +19,9 @@ const Sidebar = ({ currentParentKey, currentChildKey, onSectionChange }) => {
 
     const handleParentClick = (key) => {
         onSectionChange(key, null);
+        if (onCloseMobile) {
+            onCloseMobile();
+        }
         // Expand children if section has children and is not already expanded
         if (sections[key].children && Object.keys(sections[key].children).length > 0) {
             if (!expandedSections[key]) {
@@ -33,6 +36,9 @@ const Sidebar = ({ currentParentKey, currentChildKey, onSectionChange }) => {
     const handleChildClick = (parentKey, childKey, event) => {
         event.preventDefault();
         onSectionChange(parentKey, childKey);
+        if (onCloseMobile) {
+            onCloseMobile();
+        }
         // Expand parent if not already expanded
         if (!expandedSections[parentKey]) {
             setExpandedSections(prev => ({
@@ -43,9 +49,16 @@ const Sidebar = ({ currentParentKey, currentChildKey, onSectionChange }) => {
     };
 
     return (
-        <div className="sidebar">
+        <div className={`sidebar ${isMobileOpen ? 'sidebar-open' : ''}`}>
             <div className="sidebar-header">
-                <h1>Coronad Whitepaper</h1>
+                {/* <h1>Coronad Whitepaper</h1> */}
+                <button
+                    type="button"
+                    className="sidebar-close-btn"
+                    onClick={onCloseMobile}
+                >
+                    ✕
+                </button>
             </div>
             <nav className="navigation">
                 {Object.entries(sections).map(([key, section]) => {
