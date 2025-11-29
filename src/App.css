@@ -12,3 +12,15 @@
     overflow: hidden;
 }
 
+@media (max-width: 1024px) {
+    .app {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .content-wrapper {
+        height: auto;
+    }
+}
+
